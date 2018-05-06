@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+html,body { background:#D7EDFF; }
+	.logo { float:none; display:block; width:80%; max-width:480px;max-height:67px; margin:0 auto; }
+	.header { width:100%;max-width:960px; }
+		.blueberry { clear:both; position:static; width:100%; height:auto; }
+			.subtitle { 
+				position:static; width:100%; padding:0; font-size:0.8em;
+				text-align:center; height:auto; padding-bottom:10px; }
+			.nav { 
+				width:100%; position:static; text-align:center; 
+				background:#3E6CA0;
+				height:auto; border-radius:0; }
+				.nav::before { display:none; }
+				.nav>li { padding:0 4px; *float:left; }
+				.nav>li:last-child { margin-right:0; }
+	.snazz { width:100%;max-width:960px; *display:none; }
+	
+	.plate { background-image:none; }
+/*--*/
+
+.type-flower {}
+	.type-flower h1 { color:#E7F7FF; text-shadow:none; }
+	.type-flower h2 { color:#74ACE0; text-shadow:none; }
+	.type-flower p { color:#E1E1FF; text-shadow:none; }
+
+
+.page-marketing {}
+	.sheet.banana { background:#478CCC; }
+		.sheet.banana.twitterbox { background:white; }
+	.sheet.grape  { background:#1F63AD; }
+
+		
+.page-promotions {}
+	.sheet.peach { background:#5497B1; }
+	.type-cherry {}
+		.type-cherry h1 { color:#175B9E; text-shadow:none; }
+		.type-cherry h2 { color:#C0DCF7; text-shadow:none; }
+		.type-cherry p  { color:#E1E1FF; text-shadow:none; }
+
+.page-about {}
+	.sheet.fairy { background:#5497B1; }
+	.sheet.bleach { background:#0994CA; }
+
+.page-contact {}
+	.hcontact { background:#A6C4FA; }
+	.contactplate { background:#559ACF; }
+
+/*--*/
